@@ -155,6 +155,10 @@ function mouseClick(event){
 		var y       = event.pageY - y_base;    // キャンバス内のクリックされた位置（ｙ座標）
 						// クリックされたマス目を特定
 
+		alert("canvas_x = "+ canvas.offsetLeft + " canvas_y = " + canvas.offsetTop);
+		alert("click_x = "+ event.pageX + " click_y = " + event.pageY);
+
+
 		for (var i = 0; i < 8; i++) {
 			if (x >= gap+i*(gap+sz) && x <= (i+1)*(gap+sz)) {
 				break;
@@ -166,7 +170,7 @@ function mouseClick(event){
 			}
 		}
 
-		alert("x="+ (i+1) + "," + "y="+ (j+1));
+//		alert("x="+ (i+1) + "," + "y="+ (j+1));//For debug
 
 		if (r_check(i+1,j+1) == 0){
 		
