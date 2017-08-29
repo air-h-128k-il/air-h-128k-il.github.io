@@ -149,14 +149,22 @@ function fin(){
 function mouseClick(event){
 
 		text.value="";
+/*
 		var x_base  = canvas.offsetLeft;   // キャンバスの左上のｘ座標
 		var y_base  = canvas.offsetTop;   // キャンバスの左上のｙ座標
 		var x       = event.pageX - x_base;    // キャンバス内のクリックされた位置（ｘ座標）
 		var y       = event.pageY - y_base;    // キャンバス内のクリックされた位置（ｙ座標）
 						// クリックされたマス目を特定
-
+						
 		alert("canvas_x = "+ canvas.offsetLeft + " canvas_y = " + canvas.offsetTop);
 		alert("click_x = "+ event.pageX + " click_y = " + event.pageY);
+*/
+		var x = event.clientX ;
+		var y = event.clientY ;
+		var rect = event.target.getBoundingClientRect() ;
+        
+		x -= rect.left ;
+		y -= rect.top ;
 
 
 		for (var i = 0; i < 8; i++) {
@@ -171,6 +179,9 @@ function mouseClick(event){
 		}
 
 //		alert("x="+ (i+1) + "," + "y="+ (j+1));//For debug
+
+
+
 
 		if (r_check(i+1,j+1) == 0){
 		
