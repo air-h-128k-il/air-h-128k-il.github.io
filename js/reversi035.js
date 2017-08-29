@@ -166,6 +166,7 @@ function mouseClick(event){
 			}
 		}
 
+		alert("x="+ (i+1) + "," + "y="+ (j+1));
 
 		if (r_check(i+1,j+1) == 0){
 		
