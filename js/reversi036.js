@@ -103,7 +103,7 @@ function init(){
 		r_orient[i]=0;
 	}
 
-	canvas = document.getElementById('canvas_board');
+	canvas = document.getElementById('canvas_board_s');
  	ctx = canvas.getContext('2d');
  	
  	draw();
@@ -113,7 +113,7 @@ function init(){
  	turn = 0;// 0 黒 1 白
 	passpassflag=0;movectr=0;
 
-	text=document.getElementById('text');
+	text=document.getElementById('text_s');
 	
 	reversi();
  	
