@@ -1,0 +1,1412 @@
+@charset "utf-8";
+
+
+/* default */
+dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table {border-collapse:collapse;border-spacing:0;}
+fieldset,img {border:0;}
+li {list-style:none;}
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym {border:0;font-variant:normal;}
+sup,sub {line-height:-1px;vertical-align: text-top;}
+sub {vertical-align:text-bottom;}
+input, textarea, select {font-family:inherit;font-size:inherit;font-weight:inherit;}
+p,div,td {line-height:1.4;}
+a {outline:0;}
+a:link {text-decoration:underline;color: #3A8B83;}
+a:visited {text-decoration:underline;color: #3A8B83;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:underline;}
+
+body {
+	background: url(../img/common_bg.gif) repeat center top #fff;
+	text-align:center;
+	font-size:14px;
+	color:#454545;
+	margin:0 auto;
+	font-family: Osaka,"ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+}
+
+div.contents {
+	width: 922px;
+	text-align: left;
+	margin:0 auto;
+	padding-top: 14px;
+}
+
+.text_bold {font-weight:bold;}
+.bold {font-weight: bold;}
+.clear {clear:both;font-size:0;}
+.small {font-size:0.8em;color:#888;}
+#all {width:760px;padding:0;margin:0 auto;}
+.c01 {color: #8A532C;font-weight: bold;}
+.c02 {color: #72B12D;}
+.c03 {color: #6B9A32;}
+.c04 {color: #B18343;}
+.color01 {color: #ED581E;}
+.size19 {font-size: 19px}
+.size18 {font-size: 18px}
+.size17 {font-size: 17px}
+.size16 {font-size: 16px}
+.size15 {font-size: 15px}
+.size14 {font-size: 14px}
+.size12 {font-size: 12px}
+.size11 {font-size: 11px}
+.size10 {font-size: 10px}
+
+.titlematchDate {line-height: 1.0;font-size: 11px;}
+.anaName {font-size: 20px;font-weight: bold;}
+.danLebel {font-weight: bold;color: #666666;}
+
+
+
+/* ヘッダー */
+
+.header h1 {
+	background:url("../img/header_logo.png") no-repeat 20px top;
+	height:46px;
+	text-indent:-9999px;
+}
+.header h1 a {
+	display:block;
+	width:310px;
+	height:46px;
+}
+
+.header ul {
+	width:922px;
+	height:52px;
+	background: url(../img/header_menu.png) no-repeat;
+}
+.header ul li {
+	float: left;
+	display:block;
+	height: 52px;
+	width:150px;
+	text-indent:-9999px;
+}
+
+/* li.menu01 {width:128px;}
+li.menu02,li.menu03,li.menu04,li.menu05 {width:129px;}
+li.menu06 {width:127px;} */
+
+.header ul li a {
+	display:block;
+	height: 52px;
+	width:150px;
+}
+
+/* li.menu01 a {width:128px;}
+li.menu02 a,li.menu03 a,li.menu04 a,li.menu05 a {width:129px;}
+li.menu06 a {width:127px;} */
+
+.header ul li.menu01 {
+	padding-left:11px;
+}
+li.menu01 a:hover {background: url(../img/header_menu.png) no-repeat -11px -52px;}
+li.menu02 a:hover {background: url(../img/header_menu.png) no-repeat -161px -52px;}
+li.menu03 a:hover {background: url(../img/header_menu.png) no-repeat -311px -52px;}
+li.menu04 a:hover {background: url(../img/header_menu.png) no-repeat -461px -52px;}
+li.menu05 a:hover {background: url(../img/header_menu.png) no-repeat -611px -52px;}
+li.menu06 a:hover {background: url(../img/header_menu.png) no-repeat -761px -52px;}
+body#gotou li.menu01 a {background: url(../img/header_menu.png) no-repeat -11px -104px;}
+body#shogitou li.menu02 a {background: url(../img/header_menu.png) no-repeat -161px -104px;}
+body#igofocus li.menu03 a {background: url(../img/header_menu.png) no-repeat -311px -104px;}
+body#shogifocus li.menu04 a {background: url(../img/header_menu.png) no-repeat -461px -104px;}
+body#special li.menu05 a {background: url(../img/header_menu.png) no-repeat -611px -104px;}
+body#otayori li.menu06 a {background: url(../img/header_menu.png) no-repeat -761px -104px;}
+
+
+/* パンくず */
+div.rootNavi {
+	padding-left: 14px;
+	font-size: 12px;
+}
+
+/* メインコンテンツ背景 白 */
+div#main_header {
+	height:18px;
+	background:url("../img/bg_basic_top.png") no-repeat;
+}
+div#main {
+	background:url("../img/bg_basic_middle.png") repeat-y;
+	padding:0 11px;
+}
+div#main_bottom {
+	height:18px;
+	background:url("../img/bg_basic_bottom.png") no-repeat;
+}
+
+
+
+
+/* フォーカス */
+div#igofocus_header {
+	background:url("../img/igofocus_header2014.png") no-repeat;
+	position:relative;
+	top:-9px;
+	height:380px;
+}
+div#shogifocus_header {
+	background:url("../img/shogifocus_header2014.png") no-repeat;
+	position:relative;
+	top:-9px;
+	height:560px;
+}
+
+div#igofocus_header h1,
+div#shogifocus_header h1 {
+	display:none;
+}
+p#igofocus_read,
+p#shogifocus_read {
+	float:left;
+	width:233px;
+	margin-left:62px;
+	margin-right:35px;
+	margin-top:262px;
+	display:inline;
+}
+#igofocus_member {
+	float:left;
+	margin-top:178px;
+	width:550px;
+	background:url("../img/igofocus_dotline.gif") no-repeat bottom left;
+	padding-bottom:15px;
+	font-size:12px;
+	display:inline;
+}
+#shogifocus_member,
+#shogifocus_member2 {
+	float:left;
+	margin-top:184px;
+	width:550px;
+//	background:url("../img/shogifocus_dotline.gif") no-repeat bottom left;
+	padding-bottom:15px;
+	font-size:12px;
+	display:inline;
+}
+#shogifocus_member2 {
+	margin-top:5px !important;
+}
+#igofocus_member p {
+	float:left;
+	width:238px;
+	margin-top:15px;
+	margin-right:35px;
+	display:inline;
+}
+#shogifocus_member p,
+#shogifocus_member2 p {
+	float:left;
+	width:238px;
+	margin-top:15px;
+	margin-right:35px;
+	display:inline;
+}
+
+/* 講座タイトル 将棋のみ */
+#shogifocus_kouzatitle {
+	padding:30px 60px 30px 329px;
+	line-height:1.8;
+	font-size:12px;
+	background:#fdfbf6;
+border-top:1px solid #eee;
+border-bottom:1px solid #eee;
+}
+
+#shogifocus_kouzatitle p {
+	text-indent:0;
+}
+
+#shogifocus_kouzatitle strong {
+	font-size:17px;
+}
+
+
+body#igofocus h2,
+body#shogifocus h2 {
+	text-align:center;
+	padding:40px 0 11px;
+}
+
+
+/* フォーカス テーブル1 */
+#igofocus_tbl {
+	width:700px;
+	margin:0 auto;
+	background:url("../img/igofocus_tbl_header.gif") no-repeat left top;
+}
+#shogifocus_tbl {
+	width:700px;
+	margin:0 auto;
+	background:url("../img/shogifocus_tbl_header.gif") no-repeat left top;
+}
+
+.focus_tbl_header a {color:#454545;}
+
+/* 年 */
+th.thisYear {
+	width:114px;
+	height:31px;
+	text-align:center;
+}
+
+/* 月リンク */
+ul#MonthLink,
+ul#MonthLink li {
+	display:inline;
+	margin-left:5px;
+}
+
+body.m01 li#Month01 a,
+body.m02 li#Month02 a,
+body.m03 li#Month03 a,
+body.m04 li#Month04 a,
+body.m004 li#Month004 a,
+body.m05 li#Month05 a,
+body.m06 li#Month06 a,
+body.m07 li#Month07 a,
+body.m08 li#Month08 a,
+body.m09 li#Month09 a,
+body.m10 li#Month10 a,
+body.m11 li#Month11 a,
+body.m12 li#Month12 a {color:#fff;text-decoration:none;}
+
+
+
+
+/* 月 */
+tr.thisMonth th {
+	text-align:center;
+	font-size:40px;
+	color:#6b9a32;
+}
+body#shogifocus tr.thisMonth th {
+	color:#b18343;
+}
+
+/* 講座テキストtbl */
+td.kouzaTitle {
+	width:280px;
+	font-size:15px;
+	font-weight:bold;
+	padding-left:15px;
+}
+td.kouzaCover {
+	width:80px;
+	padding:7px 0 10px;
+}
+td.kouzaTxt {
+	width:200px;
+	font-size:12px;
+	font-weight:normal;
+}
+td.kouzaTxt span {
+	font-size:10px;
+}
+
+
+
+#igofocus_tbl2_wrapper {
+	width:700px;
+	height:402px;
+	margin:0 auto;
+	background:url("../img/focus_tbl2_bg.gif") no-repeat left top;
+	-webkit-overflow-scrolling:touch; overflow:auto;	// iOSスクロールバー対策
+}
+
+/* フォーカス テーブル2 */
+#igofocus_tbl2 {
+	width:683px;
+}
+
+/* 放送日 */
+tr.focus_day {
+	border-bottom:1px #d6d6d6 solid;
+}
+tr.noborder {
+	border-bottom:0 !important;
+}
+ tr.focus_day th {
+	padding-top:15px;
+	vertical-align:top;
+	width:114px;
+	color:#6b9a32;
+	text-align:center;
+	font-size:15px;
+	font-weight:bold;
+	border-right:1px #d6d6d6 solid;
+}
+body#shogifocus tr.focus_day th {
+	color:#b18343;
+}
+tr.focus_day td {
+	padding:15px;
+	vertical-align:top;
+}
+ tr.focus_day span {
+	font-weight:bold;
+	white-space:nowrap;
+}
+tr.focus_day p {
+	float:left;
+	width:325px;
+}
+tr.focus_day div {
+	float:right;
+	width:150px;
+}
+.henkou {
+	color:#f00;
+	font-size:0.9em;
+}
+
+
+
+
+body.igoKifu div.footerTextArea {
+	clear:both;
+}
+
+div.footerTextArea p {
+	padding-left: 14px;
+	margin-top:0px;
+	text-align:left;
+	color:#000000;
+	font-size: 12px;
+}
+
+
+
+
+/* footer */
+div.footer {
+	width: 922px;
+	height: 107px;
+	position: relative;
+	background: url(../img/fotter_bg.png) no-repeat;
+}
+div.footer ul li {
+	position: absolute;
+}
+div.footer ul li.link01 {
+	top: 23px;
+	left: 25px;
+}
+div.footer ul li.link02 {
+	top: 23px;
+	left: 190px;
+}
+div.footer ul li.link03 {
+	top: 53px;
+	left: 25px;
+}
+div.footer ul li.link04 {
+	top: 53px;
+	left: 150px;
+}
+div.footer ul li.link05 {
+	top: 53px;
+	left: 337px;
+}
+div.footer ul li.link06 {
+	top: 53px;
+	left: 437px;
+}
+div.footer a.botBtn {
+	position: absolute;
+	top: 15px;
+	left: 809px;
+}
+
+
+/* ニュースエリア */
+div.newsArea {
+	width: 920px;
+
+	background-image: url(../img/bg_newsarea.gif);
+	background-repeat:no-repeat;
+	background-position:left top;
+margin:0;
+
+}
+.naFot {
+	width: 920px;
+	height: 16px;
+	background: url(../img/bg_newsareafot.gif);
+}
+div.newsArea div.naLeftCon {
+	float: left;
+	padding-left: 105px;
+	width:432px;
+	background: url(../img/bg_ifream.gif) no-repeat 105px top;
+}
+div.newsArea div.naLeftCon iframe {
+	width:432px;
+	height:140px;
+	font-size:12px;
+}
+div.newsArea div.naRightCon {
+	float: right;
+	padding-right: 25px;
+	margin-bottom:10px;
+}
+div.newsArea div.naLeftCon div {
+	background: url(../img/newsarea_oshirase.gif) no-repeat left top;
+}
+
+
+
+
+div.mainTitleArea {
+	width: 922px;
+	height: 382px;
+	background:no-repeat left top;
+	position: relative;
+}
+div.mainTitleArea ul li {
+	position: absolute;
+}
+div.mainTitleArea ul li.link01 {
+	top: 243px;
+	left: 146px;
+}
+div.mainTitleArea ul li.link02 {
+	top: 280px;
+	left: 105px;
+}
+div.mainTitleArea ul li.link03 {
+	top: 243px;
+	left: 703px;
+}
+div.mainTitleArea ul li.link04 {
+	top: 280px;
+	left: 658px;
+}
+
+
+/* コンテンツエリア */
+div.mainContArea {
+	width: 922px;
+	height: 319px;
+	background:no-repeat left top;
+	position: relative;
+}
+div.mainContArea ul li {
+	position: absolute;
+}
+div.mainContArea ul li.link01 {
+	top: 18px;
+	left: 23px;
+}
+div.mainContArea ul li.link02 {
+	top: 168px;
+	left: 23px;
+}
+div.mainContArea ul li.link03 {	/* タイトル戦 */
+	top: 15px;
+	left: 380px;
+}
+div.mainContArea ul li.link03_2 {
+	top: 60px;
+	left: 410px;
+	font-size:12px;
+	line-height:1.4;
+}
+div.mainContArea ul li.link04 {	/* 特集番組 */
+	top: 168px;
+	left: 380px;
+}
+div.mainContArea ul li.link04_2 {
+	top: 210px;
+	left: 410px;
+	font-size:12px;
+	line-height:1.4;
+}
+div.mainContArea ul li.link04_3 { /* 特番バナー */
+//	top: 68px;
+	top: 210px;
+	left: 378px;
+}
+div.mainContArea ul li.link04_3 img { /* 特番バナー */
+	display:inline-block;
+	margin-bottom:10px;
+}
+
+div.mainContArea ul li.link05 {
+	top: 7px;
+	left: 727px;
+}
+div.mainContArea ul li.link06 {
+	top: 127px;
+	left: 727px;
+}
+div.mainContArea ul li.link07 {
+	top: 248px;
+	left: 727px;
+}
+
+
+div.fotLinkAreaTou {
+	width: 920px;
+	height: 135px;
+	background: url(../img/kouza_fotlink_bg.png) no-repeat left top;
+	position: relative;
+}
+div.fotLinkAreaTou_igo {
+	width: 920px;
+	height: 135px;
+	background: url(../img/kouza_fotlink_bg_igo.png) no-repeat left top;
+	position: relative;
+}
+div.fotLinkAreaTou_shogi {
+	width: 920px;
+	height: 135px;
+	background: url(../img/kouza_fotlink_bg_shogi.png) no-repeat left top;
+	position: relative;
+}
+
+div.fotLinkAreaTou_igo ul li,
+div.fotLinkAreaTou_shogi ul li {
+	position: absolute;
+}
+div.fotLinkAreaTou_igo ul li.link01,
+div.fotLinkAreaTou_shogi ul li.link01 {
+	top: 7px;
+	left: 11px;
+}
+div.fotLinkAreaTou_igo ul li.link02,
+div.fotLinkAreaTou_shogi ul li.link02 {
+	top: 7px;
+	left: 472px;
+}
+
+
+
+
+
+/* ------------------------------- NHK杯 ------------------------------- */
+
+body.nhk_hai div.newsArea {
+	width: 900px;
+	background: url(../img/bg_second_newsarea.gif) repeat-y left 26px;
+	margin-top: 23px;
+	padding-left: 12px;
+	padding-top: 0px;
+	padding-right:10px
+}
+body.nhk_hai div.naFot {
+	width: 900px;
+	height: 16px;
+	background: url(../img/bg_newsareafot2.gif) no-repeat;
+}
+body.nhk_hai div.naFot2 {
+	width: 931px;
+	height: 16px;
+	background: url(../img/bg_newsareafot2.gif) no-repeat;
+}
+body.nhk_hai div.secContent {
+	margin-top: 30px;
+	width: 920px;
+	height: 118px;
+	background: url(../img/nhk_igo_sec_bg.jpg) no-repeat;
+	margin-bottom: 40px;
+	position: relative;
+}
+
+body.nhk_hai div.secContent img.shikai {
+	top: 8px;
+	left: 102px;
+	position: absolute;
+}
+body.nhk_hai div.secContent p.nameAndDan {
+	width: 300px;
+	height: 20px;
+	top: 9px;
+	left: 265px;
+	position: absolute;
+	line-height: 170%;
+}
+body.nhk_hai div.secContent p.keireki {
+	width:350px;
+	top: 35px;
+	left: 218px;
+	position: absolute;
+	line-height: 150%;
+	font-size:0.9em;
+}
+
+div.topTextArea {
+margin-top:15px;
+text-align:center;
+line-height: 130%; 
+}
+div.topTextArea p {
+margin-top:15px;
+width:500px;
+text-align:left;
+padding-left:200px;
+color:#6B9A32;
+}
+div.topTextArea p.sg {
+margin-top:15px;
+width:500px;
+text-align:left;
+padding-left:200px;
+color:#B18343;
+}
+
+div.footTextArea {
+margin-top:30px;
+/*margin-top:15px;*/
+text-align:left;
+padding-left:150px;
+}
+div.footTextArea p {
+/*margin-top:15px;*/
+width:640px;
+text-align:left;
+color:#000000;
+/*padding-left:200px;*/
+/*color:#6B9A32;*/
+}
+div.footTextArea p.sg {
+/*margin-top:15px;*/
+width:640px;
+text-align:left;
+color:#000000;
+/*padding-left:200px;*/
+/*color:#B18343;*/
+}
+
+
+body.nhk_hai_sg div.secContent {
+	margin-top: 30px;
+	width: 920px;
+	height: 118px;
+	background: url(../img/nhk_syougi_sec_bg.jpg) no-repeat;
+	margin-bottom: 70px;
+	position: relative;
+}
+body.nhk_hai div.secContent a {
+	position: absolute;
+	top: 16px;
+	left: 615px;
+}
+body.nhk_hai div.tournamentTitle {
+	width: 900px;
+	height: 63px;
+	background: url(../img/nhk_ig_tournament2015.gif) no-repeat;
+	position: relative;
+}
+body.nhk_hai_sg div.tournamentTitle {
+	width: 900px;
+	height: 63px;
+	background: url(../img/nhk_sg_tournament2015.gif) no-repeat;
+	position: relative;
+}
+
+body.nhk_hai div.tournamentTitle a,
+body.nhk_hai div.tournamentTitle60 a,
+body.nhk_hai_sg div.tournamentTitle a,
+body.nhk_hai_sg div.tournamentTitle62 a {
+	position: absolute;
+	top: 8px;
+	left: 658px;
+}
+div.tableArea {
+	padding-left: 101px;
+}
+div.tableArea div.igoTableTop {
+	width: 700px;
+	height: 50px;
+	background: url(../img/bg_igo_table_top.png) no-repeat top;
+}
+div.tableArea div.syougiTableTop {
+	width: 700px;
+	height: 50px;
+	background: url(../img/bg_syougi_table_top.png) no-repeat top;
+}
+div.linkArea {
+padding-top:15px;
+width:550px;
+margin:auto;
+padding-left:170px;
+}
+div.linkArea span {
+padding-right:10px;
+margin-bottom:10px;
+}
+div.linkArea td {
+white-space:nowrap;
+}
+
+/* .webfont {font-family: "HOT-白舟行書 Std R";color:#333;font-size:25px;} */
+/* .webfont span {color:#6b9a32;font-size:18px;padding-bottom:4px;} */
+
+
+
+
+
+
+
+/* focus */
+div.focus_topArea {
+	background: url(../img/journal_top_bg.png) no-repeat top left;
+	padding-left:334px;
+	padding-top:36px;
+	margin-bottom:30px
+}
+div.focus_topArea p {
+	line-height:160%;
+	margin-top:7px;
+	margin-bottom:7px;
+	width: 500px;
+}
+div.focus_photo {
+	width:80px;
+	float:left;
+}
+table#focus_member td {
+	vertical-align:top;
+	width:183px;
+}
+
+
+div.focus_mainContent {
+	padding-left:100px;
+	line-height:170%;
+	font-size:15px;
+	font-weight:bold;
+}
+div.focus_wrap {
+	width:700px;
+	background: url(../img/journal_cont_bg02.png) no-repeat;
+	margin-bottom:15px;
+}
+
+
+div.focus_wrap:last-child {
+	margin-bottom:0;
+}
+
+div.focus_data {
+	padding:15px 23px;
+}
+div.focus_contents_igo {
+	background:url('../img/focus_icon_igo.png') no-repeat 9px 0;
+	padding:15px 65px;
+}
+div.focus_contents_shogi {
+	background:url('../img/focus_icon_shogi.png') no-repeat 9px 0;
+	padding:15px 65px;
+}
+div.focus_bottom {
+	background:url('../img/journal_cont_bot2.png') no-repeat;
+	height:19px;
+}
+
+
+
+
+
+
+
+
+
+
+/* 特集番組 */
+
+
+div.sp_mainContent {
+	padding-left: 100px;
+	background: url(../img/sp_table_bg.png) repeat-y top;
+}
+div.sp_mainContent table div {
+	padding: 10px;
+	font-size: 12px;
+}
+div.tl_mainContent {
+	padding-left: 100px;
+	background: url(../img/title_table_bg.png) repeat-y top;
+}
+div.tl_mainContent table div {
+	padding: 10px;
+	font-size: 12px;
+}
+
+/* .. */
+body.kouza div.kouzaTop {
+	width: 636px;
+	height: 372px; 
+	padding-left:264px;
+	padding-top:25px;
+	position:relative;
+	background: url(../img/kouza_top.png) no-repeat top;
+/*	height: 412px; */
+}
+body.kouza div.kouzaTop p {
+	padding-left:5px;
+	margin-bottom:10px;
+	line-height:160%;
+	width:570px;
+}
+body.kouza div.kouzaTop div.anaPgArea {
+	height:111px;
+	width:578px;
+	margin-top:15px;
+	margin-bottom:15px;
+	position:relative;
+	background: url(../img/bg_igo_anaarea.png) no-repeat top;
+}
+body.kouza div.kouzaTop div.anaPgArea img.pg_ik_01 {
+	position:absolute;
+	top:1px;
+	left:6px;
+}
+body.kouza div.kouzaTop div.anaPgArea img.pg_ik_02 {
+	position:absolute;
+	top:1px;
+	left:310px;
+}
+body.kouza div.kouzaTop div.anaPgArea p.nameAndDanLeft {
+	position:absolute;
+	top:45px;
+	left:117px;
+	width:130px;
+}
+body.kouza div.kouzaTop div.anaPgArea p.nameAndDanRight {
+	position:absolute;
+	top:45px;
+	left:424px;
+	width:130px;
+}
+body.kouza div.kouzaTop div.anaTextArea p {
+	width:275px;
+	float:left;
+	margin-right:25px;
+}
+body.kouza div.kouzaTop a.kifubtn {
+	position:absolute;
+	top:343px;
+	left:58px;
+}
+body.kouza div.kouzaSgTop {
+	width: 900px;
+	height: 412px;
+	background: url(../img/kouza_sg_top.png) no-repeat top;
+}
+body.kouza div.igokouzaCont {
+	width: 600px;
+	height: 200px; 
+	padding-top:30px;
+	padding-left:100px;
+	margin-bottom:20px;
+/*	position:relative; */
+	background: url(../img/kouza_content_bg.png) no-repeat top left;
+/*	height: 242px; */
+}
+
+body.kouza div.igokouzaCont:last-child {
+	margin-bottom:0;
+}
+
+
+body.kouza div.igokouzaCont p.anaName {
+/*	margin-bottom:20px; */
+	margin-bottom:15px;
+/*	font-size:19px; */
+	font-size:17px; 
+}
+body.kouza div.igokouzaCont p.housouNa {
+	margin-bottom:5px;
+/*	font-size:17px; */
+	font-size:14px;
+}
+body.kouza div.igokouzaCont div.housou {
+	float:left;
+/*	width: 380px; */
+	width: 375px;
+}
+body.kouza div.igokouzaCont div.bookPg {
+	float:right;
+/*	width: 210px; */
+	width: 225px;
+	top:30px;
+	text-align:center;
+	font-size:11px;
+/*	margin-right: 10px; */
+	margin-right: 0px;
+	display: inline;
+
+/*	left:480px; */
+/*	font-size:12px; */
+}
+
+body.kouza div.igokouzaCont div.bookPg img {
+//	display:block;
+	width:100px;
+	margin:0 auto;
+}
+
+
+
+
+/* .. */
+body.kouza div.sg_kouza {
+	width: 636px;
+	height: 372px;
+	padding-left:264px;
+	padding-top:25px;
+	position:relative;
+	background: url(../img/sg_kouza_top.png) no-repeat top;
+/*	height: 412px; */
+}
+body.kouza div.sgCont {
+	background: url(../img/kouza_content_sgbg.png) no-repeat top left;
+}
+
+
+/* .. */
+body.nhk_hai div.tnmt {
+	background: url(../img/bg_second_tornamentarea.png) repeat-y left top;
+	padding-left:0px;
+	width:920px;
+}
+div.tnmt div.anaPgArea {
+	background: url(../img/bg_second_tornament_top.png) no-repeat left top;
+	width: 735px;
+	height:163px;
+	position:relative;
+	padding-left:185px;
+	padding-top:22px;
+}
+div.tnmt div.tnmtTop img.tnmt_mark {
+position:absolute;
+top:26px;
+left:22px;
+}
+div.tnmt div.tnmtTop p.titleName,
+div.tnmtsg div.tnmtTop p.titleName {
+position:absolute;
+top:43px;
+left:97px;
+font-size:20px;
+font-weight:bold;
+}
+div.tnmt_mainContent {
+	padding-left: 118px
+}
+div.tnmtFot {
+	width: 920px;
+	height: 100px;
+	background: url(../img/bg_second_sgtornament_bot.png) no-repeat left bottom;
+}
+body.nhk_hai div.tnmtsg {
+	background: url(../img/bg_second_sgtornamentarea.png) repeat-y left top;
+	padding-left:0px;
+	width:920px;
+}
+div.tnmtsg div.anaPgArea {
+	background: url(../img/bg_second_sgtornament_top.png) no-repeat left top;
+	width: 735px;
+	height:163px;
+	position:relative;
+	padding-left:185px;
+	padding-top:22px;
+}
+div.tnmtsg div.tnmtTop img.tnmt_mark {
+position:absolute;
+top:26px;
+left:22px;
+}
+div.tnmt_mainContent {
+	padding-left: 90px
+}
+div.tnmt_old_mainContent {
+	padding-left: 92px;
+}
+div.tnmt_old_mainContent p {
+font-size:18px;
+font-weight:bold;
+text-align:center;
+width:700px;
+}
+div.tnmt_old_mainContent img {
+margin-top:15px;
+}
+div.tnmtsgFot {
+	width: 920px;
+	height: 100px;
+	background: url(../img/bg_second_sgtornament_bot.png) no-repeat left bottom;
+position:relative;
+}
+
+
+.nittei_excuse {
+	position:relative;
+	top:24px;
+	left:385px;
+	color:#666;
+	font-size:13px;
+	z-index:1;
+	width:300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 棋譜再生 */
+
+
+/* 囲碁棋譜設定 */
+body#gotou div.kifu_mainContent {
+	/* background:url('../kifu/img/igo_ban.jpg') no-repeat; */
+}
+body.igoKifu div.igoKifuTop {
+	width:810px;
+	height:75px;
+	background: url(../img/igo_kifu_top.png) no-repeat;
+}
+
+body.igoKifu div.igoKifuTop p.date {
+width:385px;
+margin-top:7px;
+margin-left:406px;
+	font-size:16px;
+text-align:center;
+}
+
+body.igoKifu div.igoKifuTop p.date span {
+font-weight:bold;
+}
+/* 囲碁棋譜設定 end */
+
+
+/* 将棋棋譜設定 */
+body#shogitou div.kifu_mainContent {
+/*	background:url('../kifu/img/sg_ban.jpg') no-repeat; */
+}
+
+body.igoKifu div.sgKifuTop {
+	width:600px;
+	height:75px;
+	background: url(../img/sg_kifu_top.png) no-repeat;
+}
+
+body.igoKifu div.sgKifuTop p.date {
+width:385px;
+margin-top:7px;
+margin-left:20px;
+	font-size:16px;
+text-align:left;
+}
+
+body.igoKifu div.sgKifuTop p.date span {
+font-weight:bold;
+}
+/* 将棋棋譜設定 end */
+
+
+
+body.igoKifu div.kifuArea {
+	width:810px;
+	margin-top:15px;
+	margin:auto;
+	position:relative;
+}
+
+body.igoKifu div.kifu_mainContent {
+	width:600px;
+	height:400px;
+	position:relative;
+}
+body.igoKifu div.kifu_mainContent span {
+	color:#3c3c3c;
+}
+body.igoKifu div.tnmtsgFot {
+	margin-top:0;
+	width:600px;
+	height: 104px;
+	text-align:center;
+	background: url(../img/igo_kifu_bot2.png) no-repeat;
+}
+
+div.tnmtsgFot div.bante_arrow {
+	padding-top:6px;
+	width:295px;
+	height:42px;
+	margin:0 auto;
+	text-align:center;
+}
+div.tnmtsgFot div.bante_arrow p {
+	float:left;
+	height:42px;
+}
+div.tnmtsgFot p.item02 {
+	width:28px;margin-right:8px;}
+div.tnmtsgFot p.item03 {
+	width:36px;margin-right:6px;}
+div.tnmtsgFot p.item04 {
+	width:36px;margin-right:9px;}
+div.tnmtsgFot p.item05 {
+	width:47px;margin-right:10px;}
+div.tnmtsgFot p.item06 {
+	width:36px;margin-right:6px;}
+div.tnmtsgFot p.item07 {
+	width:34px;margin-right:10px;}
+div.tnmtsgFot p.item08 {
+	width:29px;}
+
+div.tnmtsgFot p.bante {
+	height: 26px;
+	text-align:center;
+	font-weight:bold;
+	padding-top:15px;
+}
+
+/* 棋譜再生速度 */
+div#speed_select {
+	background:url("../kifu/img/speed_select.gif") no-repeat;
+	width:116px;
+	height:35px;
+	padding-top:21px;
+	position:absolute;
+	top:27px;
+	left:665px;
+	z-index:6;
+}
+
+
+
+
+
+div.tnmt div.tawsPgArea {
+	background: url(../img/bg_second_tornament_top.png) no-repeat left top;
+	width: 735px;
+	height:363px;
+	position:relative;
+	padding-left:185px;
+	padding-top:22px;
+}
+div.tnmt div.tp2 {
+	background: url(../img/bg_second_tornament_top.png) no-repeat left top;
+	width: 735px;
+	height:163px;
+	position:relative;
+	padding-left:185px;
+	padding-top:22px;
+}
+img.taws_mark {
+position:absolute;
+top:26px;
+left:32px;
+}
+p.taws_read {
+position:absolute;
+top:100px;
+left:40px;
+font-size:18px;
+line-height:140%;
+width:300px;
+}
+div.taws_read_right{
+position:absolute;
+width:450px;
+left:422px;
+top:26px;
+}
+div.taws_read_right p {
+margin-bottom:15px;
+}
+p.meseText {
+font-size:18px;
+color:#ED581E;
+font-weight:bold;
+margin-bottom:15px;
+}
+div.tawsTextArea {
+	padding-left: 92px;
+	text-align:center;
+	height:200px;
+}
+div.tawsTextArea p {
+width:700px;
+}
+div.taws_formCont {
+padding-left:0px;
+}
+div.taws_formCont table {
+	border-spacing:10px;
+	border-collapse:separate;
+}
+
+/* ...*/
+DIV.tnmt DIV.tsumePgArea {
+	BACKGROUND: url(../img/bg_second_tornament_top.png) no-repeat left top;
+	WIDTH: 735px;
+	HEIGHT: 100px;
+	POSITION: relative;
+	PADDING-LEFT: 185px;
+	PADDING-TOP: 22px
+}
+DIV.tsume_read_right_sg {
+	POSITION:  absolute;
+	WIDTH: 450px;
+	left:270px;
+	TOP: 70px;
+	TEXT-ALIGN: left;
+}
+DIV.tsume_read_right_sg P {
+	FONT-SIZE: 27px;
+	FONT-WEIGHT: bold
+	MARGIN-BOTTOM: 10px;
+}
+DIV.tsume_read_right_ig {
+	POSITION:  absolute;
+	WIDTH: 450px;
+	left:230px;
+	TOP: 70px;
+	TEXT-ALIGN: left;
+}
+DIV.tsume_read_right_ig P {
+	FONT-SIZE: 27px;
+	FONT-WEIGHT: bold
+	MARGIN-BOTTOM: 10px;
+}
+
+
+DIV.tsume_mainCont {
+	PADDING-LEFT: 180px;
+	MARGIN-BOTTOM: 10px
+}
+DIV.tsume_mainCont TABLE IMG {
+	MARGIN-RIGHT: 15px
+}
+DIV.tsume_mainCont P {
+	MARGIN-BOTTOM: 10px
+}
+DIV.tsume_mainCont P.mondai {
+	MARGIN-TOP: 15px;
+	MARGIN-LEFT: 15px;
+	MARGIN-BOTTOM: 5px;
+	FONT-SIZE: 18px;
+	FONT-WEIGHT: bold;
+	line-height:160%;
+}
+
+DIV.tsume_mainCont ul.rule {
+	FONT-SIZE: 13px;
+	MARGIN-LEFT: 15px;
+}
+
+
+DIV.tsume_mainCont P.ruleTitle {
+	MARGIN-TOP: 15px;
+	MARGIN-LEFT: 15px;
+	MARGIN-BOTTOM: 5px;
+	FONT-SIZE: 17px;
+	FONT-WEIGHT: bold;
+}
+
+div.tsume_okurisaki {
+	POSITION: relative;
+	MARGIN-TOP: 10px;
+	MARGIN-LEFT: 50px;
+	MARGIN-BOTTOM: 5px;
+	WIDTH: 450px;
+	TEXT-ALIGN: left;
+}
+div.tsume_okurisaki p {
+	font-size: 12px;
+}
+div.tsume_okurisaki p.title {
+	font-size: 12px;
+}
+div.tsume_okurisaki p.address {
+	font-size: 20px;
+	font-weight: bold;
+	line-height:160%;
+	margin-bottom: 15px;
+}
+
+
+
+/* e[u */
+div.igoTableArea div {
+	background: url(../img/igo_tablebg_tournament.gif) no-repeat left top;
+}
+div.syougiTableArea div {
+	background: url(../img/syougi_tablebg_tournament.gif) no-repeat left top;
+}
+div.tableBot {
+	background: url(../img/igo_tablebgbot_tournament.gif) no-repeat left bottom;
+}
+div.syougiTableBot {
+	background: url(../img/sg_tablebgbot_tournament.gif) no-repeat left bottom;
+}
+div.goToTop {
+	text-align: right;
+	padding:  25px 90px 25px 0;
+}
+
+
+div.bussTxt {
+	padding: 15px 0px 15px;
+	text-align: left;
+	border-bottom: dotted 1px #666;
+}
+div.botArea {
+	border-bottom: none;
+	padding-bottom: 25px;
+}
+div.bussTxt img {
+	float: right;
+	margin-right: 15px;
+}
+div.bussTxt p {
+	float: left;
+	width: 450px;
+}
+div.diaArea {
+	border-bottom: none;
+	padding-bottom: 15px;
+}
+
+
+#sec_contents {
+	width:760px;
+	padding: 25px 0px;
+	color: #666;
+}
+#sec_contents h2 {
+	width:756px;
+	height: 24px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+#sec_contents table {
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+
+
+.jl_mainContent {
+	margin-left:100px;
+}
+
