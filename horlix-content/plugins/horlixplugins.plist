@@ -16,15 +16,11 @@ https://air-h-128k-il.github.io/horlix-content/plugins/horlix/PDFtoDICOM/html/in
 </dict>
 <dict>
 <key>download_url</key>
-<string>
-https://air-h-128k-il.github.io/horlix-content/plugins/horlix/JPEGtoDICOM/JPEGtoDICOM.horlixplugin.zip
-</string>
+<string>https://air-h-128k-il.github.io/horlix-content/plugins/horlix/JPEGtoDICOM/JPEGtoDICOM.horlixplugin.zip</string>
 <key>name</key>
 <string>JPEG to DICOM</string>
 <key>url</key>
-<string>
-https://air-h-128k-il.github.io/horlix-content/plugins/horlix/JPEGtoDICOM/html/index.html
-</string>
+<string>https://air-h-128k-il.github.io/horlix-content/plugins/horlix/JPEGtoDICOM/html/index.html</string>
 <key>version</key>
 <string>2.0</string>
 </dict>
