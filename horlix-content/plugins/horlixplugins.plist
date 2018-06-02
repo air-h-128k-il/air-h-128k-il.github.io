@@ -3,13 +3,13 @@
 <dict>
 <key>download_url</key>
 <string>
-https://air-h128k-il.github.io/horlix-content/plugins/horlix/PDFToDICOM/PDFToDICOM.horlixplugin.zip
+https://air-h-128k-il.github.io/horlix-content/plugins/horlix/PDFToDICOM/PDFToDICOM.horlixplugin.zip
 </string>
 <key>name</key>
 <string>PDF to DICOM</string>
 <key>url</key>
 <string>
-https://air-h128k-il.github.io/horlix-content/plugins/horlix/PDFtoDICOM/html/index.html
+https://air-h-128k-il.github.io/horlix-content/plugins/horlix/PDFtoDICOM/html/index.html
 </string>
 <key>version</key>
 <string>2.0</string>
@@ -17,13 +17,13 @@ https://air-h128k-il.github.io/horlix-content/plugins/horlix/PDFtoDICOM/html/ind
 <dict>
 <key>download_url</key>
 <string>
-https://air-h128k-il.github.io/horlix-content/plugins/horlix/JPEGtoDICOM/JPEGtoDICOM.horlixplugin.zip
+https://air-h-128k-il.github.io/horlix-content/plugins/horlix/JPEGtoDICOM/JPEGtoDICOM.horlixplugin.zip
 </string>
 <key>name</key>
 <string>JPEG to DICOM</string>
 <key>url</key>
 <string>
-https://phazor.info/HorliX/horlix-content/plugins/horlix/JPEGtoDICOM/html/index.html
+https://air-h-128k-il.github.io/horlix-content/plugins/horlix/JPEGtoDICOM/html/index.html
 </string>
 <key>version</key>
 <string>2.0</string>
@@ -31,13 +31,13 @@ https://phazor.info/HorliX/horlix-content/plugins/horlix/JPEGtoDICOM/html/index.
 <dict>
 <key>download_url</key>
 <string>
-https://air-h128k-il.github.io/horlix-content/plugins/horlix/CalciumScore/CalciumScore.horlixplugin.zip
+https://air-h-128k-il.github.io/horlix-content/plugins/horlix/CalciumScore/CalciumScore.horlixplugin.zip
 </string>
 <key>name</key>
 <string>Calcium Score</string>
 <key>url</key>
 <string>
-https://air-h128k-il.github.io/horlix-content/plugins/horlix/CalciumScore/html/index.html
+https://air-h-128k-il.github.io/horlix-content/plugins/horlix/CalciumScore/html/index.html
 </string>
 <key>version</key>
 <string>2.0</string>
@@ -45,13 +45,13 @@ https://air-h128k-il.github.io/horlix-content/plugins/horlix/CalciumScore/html/i
 <dict>
 <key>download_url</key>
 <string>
-https://air-h128k-il.github.io/horlix-content/plugins/horlix/CobbAngle/CobbAngle.horlixplugin.zip
+https://air-h-128k-il.github.io/horlix-content/plugins/horlix/CobbAngle/CobbAngle.horlixplugin.zip
 </string>
 <key>name</key>
 <string>Cobb's Angle</string>
 <key>url</key>
 <string>
-https://air-h128k-il.github.io/horlix-content/plugins/horlix/CobbAngle/html/index.html
+https://air-h-128k-il.github.io/horlix-content/plugins/horlix/CobbAngle/html/index.html
 </string>
 <key>version</key>
 <string>2.0</string>
@@ -59,13 +59,13 @@ https://air-h128k-il.github.io/horlix-content/plugins/horlix/CobbAngle/html/inde
 <dict>
 <key>download_url</key>
 <string>
-https://air-h128k-il.github.io/horlix-content/plugins/horlix/ResampleData/ResampleData.horlixplugin.zip
+https://air-h-128k-il.github.io/horlix-content/plugins/horlix/ResampleData/ResampleData.horlixplugin.zip
 </string>
 <key>name</key>
 <string>Resample Data</string>
 <key>url</key>
 <string>
-https://air-h128k-il.github.io/horlix-content/plugins/horlix/ResampleData/html/index.html
+https://air-h-128k-il.github.io/horlix-content/plugins/horlix/ResampleData/html/index.html
 </string>
 <key>version</key>
 <string>2.0</string>
@@ -73,13 +73,13 @@ https://air-h128k-il.github.io/horlix-content/plugins/horlix/ResampleData/html/i
 <dict>
 <key>download_url</key>
 <string>
-https://air-h128k-il.github.io/horlix-content/plugins/horlix/InvertData/InvertData.horlixplugin.zip
+https://air-h-128k-il.github.io/horlix-content/plugins/horlix/InvertData/InvertData.horlixplugin.zip
 </string>
 <key>name</key>
 <string>Invert Data</string>
 <key>url</key>
 <string>
-https://air-h128k-il.github.io/horlix-content/plugins/horlix/InvertData/html/index.html
+https://air-h-128k-il.github.io/horlix-content/plugins/horlix/InvertData/html/index.html
 </string>
 <key>version</key>
 <string>2.0</string>
@@ -87,13 +87,13 @@ https://air-h128k-il.github.io/horlix-content/plugins/horlix/InvertData/html/ind
 <dict>
 <key>download_url</key>
 <string>
-https://air-h128k-il.github.io/horlix-content/plugins/horlix/ADCMap/ADCMap.horosxplugin.zip
+https://air-h-128k-il.github.io/horlix-content/plugins/horlix/ADCMap/ADCMap.horosxplugin.zip
 </string>
 <key>name</key>
 <string>ADCMap</string>
 <key>url</key>
 <string>
-https://air-h128k-il.github.io/horlix-content/plugins/horlix/ADCMap/html/index.html
+https://air-h-128k-il.github.io/horlix-content/plugins/horlix/ADCMap/html/index.html
 </string>
 <key>version</key>
 <string>2.0</string>
