@@ -2,15 +2,11 @@
 <array>
 <dict>
 <key>download_url</key>
-<string>
-https://air-h-128k-il.github.io/horlix-content/plugins/horlix/PDFToDICOM/PDFToDICOM.horlixplugin.zip
-</string>
+<string>https://air-h-128k-il.github.io/horlix-content/plugins/horlix/PDFToDICOM/PDFToDICOM.horlixplugin.zip</string>
 <key>name</key>
 <string>PDF to DICOM</string>
 <key>url</key>
-<string>
-https://air-h-128k-il.github.io/horlix-content/plugins/horlix/PDFtoDICOM/html/index.html
-</string>
+<string>https://air-h-128k-il.github.io/horlix-content/plugins/horlix/PDFtoDICOM/html/index.html</string>
 <key>version</key>
 <string>2.0</string>
 </dict>
@@ -26,9 +22,7 @@ https://air-h-128k-il.github.io/horlix-content/plugins/horlix/PDFtoDICOM/html/in
 </dict>
 <dict>
 <key>download_url</key>
-<string>
-https://air-h-128k-il.github.io/horlix-content/plugins/horlix/CalciumScore/CalciumScore.horlixplugin.zip
-</string>
+<string>https://air-h-128k-il.github.io/horlix-content/plugins/horlix/CalciumScore/CalciumScore.horlixplugin.zip</string>
 <key>name</key>
 <string>Calcium Score</string>
 <key>url</key>
